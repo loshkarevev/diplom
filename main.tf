@@ -9,8 +9,8 @@ terraform {
 # Configure the AWS Provider
 provider "aws" {
   region = "us-east-2"
-  access_key = "AKIA4SYOYXQBNQXUIBMH"
-  secret_key = "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"
+  access_key = "AKIA4SYOYXQBIPIJNEUF"
+  secret_key = "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"
 }
 
 # Create a VPC
