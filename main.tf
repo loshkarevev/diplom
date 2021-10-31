@@ -14,9 +14,9 @@ provider "aws" {
 }
 
 # Create a VPC
-#resource "aws_vpc" "example" {
-#  cidr_block = "10.0.0.0/16"
-#}
+resource "aws_vpc" "example" {
+  cidr_block = "10.0.0.0/16"
+}
 
 resource "aws_instance" "web" {
   ami           = "ami-00399ec92321828f5"
